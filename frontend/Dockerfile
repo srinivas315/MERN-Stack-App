@@ -7,7 +7,7 @@ RUN npm install -g npm@10.2.4
 COPY package*.json ./
 COPY vite.config.js ./
 
-COPY .. 
+COPY . . 
 
 RUN npm install
 
